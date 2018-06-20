@@ -27,16 +27,10 @@ namespace SeleniumTestProject
         }
 
         [TestMethod]
-        public void PageTitleTest()
+        public void IsPageTitleCorrectTest()
         {
             var pageTitle = _driver.Title;
             Assert.AreEqual("Software-Testing.Ru", pageTitle);
         }
-
- //       private IWebDriver GetBrowserDriver()
- //       {
- //           var outputDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
- //           return new ChromeDriver(outputDirectory);
- //       }
     }
 }
