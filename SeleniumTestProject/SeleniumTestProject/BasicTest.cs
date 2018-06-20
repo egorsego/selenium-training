@@ -15,7 +15,7 @@ namespace SeleniumTestProject
         [TestInitialize]
         public void Setup()
         {
-            _driver = GetBrowserDriver();
+            _driver = new ChromeDriver();
             _driver.Manage().Window.Maximize();
             _driver.Navigate().GoToUrl(Url);
         }
@@ -30,13 +30,13 @@ namespace SeleniumTestProject
         public void PageTitleTest()
         {
             var pageTitle = _driver.Title;
-            Assert.AreEqual("Software-esting.Ru", pageTitle);
+            Assert.AreEqual("Software-Testing.Ru", pageTitle);
         }
 
-        private IWebDriver GetBrowserDriver()
-        {
-            var outputDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            return new ChromeDriver(outputDirectory);
-        }
+ //       private IWebDriver GetBrowserDriver()
+ //       {
+ //           var outputDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+ //           return new ChromeDriver(outputDirectory);
+ //       }
     }
 }

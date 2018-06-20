@@ -1,0 +1,14 @@
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\LitecartLogin.dll
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\LitecartLogin.pdb
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.csprojAssemblyReference.cache
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.csproj.CoreCompileInputs.cache
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.csproj.CopyComplete
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.dll
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.pdb
