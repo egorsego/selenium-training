@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTestProject", "Sele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitecartLogin", "LitecartLogin\LitecartLogin.csproj", "{BE61621E-64BC-4D52-8795-DBE6535F8E7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitecartNavigation", "LitecartNavigation\LitecartNavigation.csproj", "{72E509B6-BFC8-4C02-990A-76C406CB4448}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE61621E-64BC-4D52-8795-DBE6535F8E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE61621E-64BC-4D52-8795-DBE6535F8E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE61621E-64BC-4D52-8795-DBE6535F8E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E509B6-BFC8-4C02-990A-76C406CB4448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E509B6-BFC8-4C02-990A-76C406CB4448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E509B6-BFC8-4C02-990A-76C406CB4448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E509B6-BFC8-4C02-990A-76C406CB4448}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

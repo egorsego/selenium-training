@@ -1,5 +1,7 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Reflection;
+using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -10,13 +12,18 @@ namespace SeleniumTestProject
     public class BasicTest
     {
         private IWebDriver _driver;
-        private const string Url = "https://www.software-testing.ru";
+        private ChromeOptions _options;
+        private const string Url = "https://lk.uksn.ru/";
 
         [TestInitialize]
         public void Setup()
         {
-            _driver = new ChromeDriver();
-            _driver.Manage().Window.Maximize();
+            _options = new ChromeOptions();
+            _options.AddArgument("--headless");
+            _driver = new ChromeDriver(_options);
+//            _driver = new ChromeDriver();
+//            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+//            _driver.Manage().Window.Maximize();
             _driver.Navigate().GoToUrl(Url);
         }
 
@@ -30,7 +37,7 @@ namespace SeleniumTestProject
         public void IsPageTitleCorrectTest()
         {
             var pageTitle = _driver.Title;
-            Assert.AreEqual("Software-Testing.Ru", pageTitle);
+            Assert.AreEqual("WEB Серви - Личный кабинет абонента", pageTitle);
         }
     }
 }

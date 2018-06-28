@@ -3,11 +3,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-
-namespace LitecartLogin
+namespace LitecartNavigation
 {
     [TestClass]
-    public class AdminLoginTest
+    public class LeftNavigationPane
     {
         private IWebDriver _driver;
         private const string Url = "http://localhost/litecart/admin";
@@ -28,13 +27,17 @@ namespace LitecartLogin
         }
 
         [TestMethod]
-        public void IsLoginSuccessfulTest()
+        public void PaneItemsNavigationTest()
         {
-            _driver.FindElement(By.XPath("//tbody/tr[1]/td[2]/span/input")).SendKeys("admin");
-            _driver.FindElement(By.XPath("//tbody/tr[2]/td[2]/span/input")).SendKeys("admin");
+            _driver.FindElement(By.CssSelector("#box-login [name=username]")).SendKeys("admin");
+            _driver.FindElement(By.CssSelector("#box-login [name=password]")).SendKeys("admin");
             _driver.FindElement(By.XPath("//div[2]/button")).Click();
-            var platform = _driver.FindElement(By.Id("platform")).Text;
-            Assert.AreEqual("LiteCart® 1.3.7", platform);
+
+            var navigationItems = _driver.FindElements(By.CssSelector("#box-apps-menu #app-"));
+            foreach (var item in navigationItems)
+            {
+                item.Click();
+            }
         }
     }
 }
