@@ -9,7 +9,6 @@ E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\Seleniu
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\bin\Debug\WebDriver.xml
-E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.csprojAssemblyReference.cache
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.csproj.CoreCompileInputs.cache
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.csproj.CopyComplete
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.dll
@@ -30,3 +29,4 @@ C:\Users\egora\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-trai
 C:\Users\egora\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.csproj.CopyComplete
 C:\Users\egora\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.dll
 C:\Users\egora\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.pdb
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartLogin\obj\Debug\LitecartLogin.csprojAssemblyReference.cache

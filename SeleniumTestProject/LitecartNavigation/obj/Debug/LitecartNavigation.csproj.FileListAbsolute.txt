@@ -9,8 +9,8 @@ E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\Seleniu
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartNavigation\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartNavigation\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartNavigation\bin\Debug\WebDriver.xml
-E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartNavigation\obj\Debug\LitecartNavigation.csprojAssemblyReference.cache
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartNavigation\obj\Debug\LitecartNavigation.csproj.CoreCompileInputs.cache
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartNavigation\obj\Debug\LitecartNavigation.csproj.CopyComplete
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartNavigation\obj\Debug\LitecartNavigation.dll
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartNavigation\obj\Debug\LitecartNavigation.pdb
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\LitecartNavigation\obj\Debug\LitecartNavigation.csprojAssemblyReference.cache

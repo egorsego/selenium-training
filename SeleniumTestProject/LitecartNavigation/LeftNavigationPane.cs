@@ -15,7 +15,7 @@ namespace LitecartNavigation
         public void Setup()
         {
             _driver = new ChromeDriver();
-            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
             _driver.Manage().Window.Maximize();
             _driver.Navigate().GoToUrl(Url);
         }
@@ -29,15 +29,32 @@ namespace LitecartNavigation
         [TestMethod]
         public void PaneItemsNavigationTest()
         {
+            LoginAsAdmin();
+
+            var numberOfItems = _driver.FindElements(By.XPath("//ul[@id='box-apps-menu']/li[@id='app-']")).Count;
+            for (int i = 1; i <= numberOfItems; i++)
+            {
+                String XPathLocator = "//ul[@id='box-apps-menu']/li[@id='app-']" + "[" + i + "]";
+                _driver.FindElement(By.XPath(XPathLocator)).Click();
+                var numberOfSubItems = _driver.FindElement(By.XPath(XPathLocator)).FindElements(By.XPath(".//ul[@class='docs'] / li")).Count;
+                if (numberOfSubItems != 0)
+                {
+                    for (int j = 2; j <= numberOfSubItems; j++)
+                    {
+                        String XPathSubLocator = ".//ul[@class = 'docs'] / li" + "[" + j + "]";
+                        _driver.FindElement(By.XPath(XPathSubLocator)).Click();
+                        Assert.AreNotEqual(0, _driver.FindElements(By.XPath("//h1")).Count);
+                    }
+                }
+                Assert.AreNotEqual(0, _driver.FindElements(By.XPath("//h1")).Count);
+            }
+        }
+
+        void LoginAsAdmin()
+        {
             _driver.FindElement(By.CssSelector("#box-login [name=username]")).SendKeys("admin");
             _driver.FindElement(By.CssSelector("#box-login [name=password]")).SendKeys("admin");
-            _driver.FindElement(By.XPath("//div[2]/button")).Click();
-
-            var navigationItems = _driver.FindElements(By.CssSelector("#box-apps-menu #app-"));
-            foreach (var item in navigationItems)
-            {
-                item.Click();
-            }
+            _driver.FindElement(By.CssSelector("#box-login [name=login]")).Click();
         }
     }
 }
