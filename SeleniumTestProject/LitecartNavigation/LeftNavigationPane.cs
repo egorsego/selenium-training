@@ -34,15 +34,15 @@ namespace LitecartNavigation
             var numberOfItems = _driver.FindElements(By.XPath("//ul[@id='box-apps-menu']/li[@id='app-']")).Count;
             for (int i = 1; i <= numberOfItems; i++)
             {
-                String XPathLocator = "//ul[@id='box-apps-menu']/li[@id='app-']" + "[" + i + "]";
-                _driver.FindElement(By.XPath(XPathLocator)).Click();
-                var numberOfSubItems = _driver.FindElement(By.XPath(XPathLocator)).FindElements(By.XPath(".//ul[@class='docs'] / li")).Count;
+                String xPathLocator = "//ul[@id='box-apps-menu']/li[@id='app-']" + "[" + i + "]";
+                _driver.FindElement(By.XPath(xPathLocator)).Click();
+                var numberOfSubItems = _driver.FindElement(By.XPath(xPathLocator)).FindElements(By.XPath(".//ul[@class='docs'] / li")).Count;
                 if (numberOfSubItems != 0)
                 {
                     for (int j = 2; j <= numberOfSubItems; j++)
                     {
-                        String XPathSubLocator = ".//ul[@class = 'docs'] / li" + "[" + j + "]";
-                        _driver.FindElement(By.XPath(XPathSubLocator)).Click();
+                        String xPathSubLocator = ".//ul[@class = 'docs'] / li" + "[" + j + "]";
+                        _driver.FindElement(By.XPath(xPathSubLocator)).Click();
                         Assert.AreNotEqual(0, _driver.FindElements(By.XPath("//h1")).Count);
                     }
                 }
