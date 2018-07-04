@@ -14,3 +14,5 @@ E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\Seleniu
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\CountriesList\obj\Debug\CountriesList.csproj.CopyComplete
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\CountriesList\obj\Debug\CountriesList.dll
 E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\CountriesList\obj\Debug\CountriesList.pdb
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\CountriesList\bin\Debug\WebDriver.Support.dll
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\CountriesList\bin\Debug\WebDriver.Support.xml
