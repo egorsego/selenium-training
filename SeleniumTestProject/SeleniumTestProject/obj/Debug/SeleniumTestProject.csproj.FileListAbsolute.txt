@@ -33,3 +33,4 @@ C:\Users\egora\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-trai
 C:\Users\egora\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\SeleniumTestProject\obj\Debug\SeleniumTestProject.csproj.CopyComplete
 C:\Users\egora\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\SeleniumTestProject\obj\Debug\SeleniumTestProject.dll
 C:\Users\egora\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\SeleniumTestProject\obj\Debug\SeleniumTestProject.pdb
+E:\Dropbox\PracticePrograming\Testing\Selenium\c-sharp\selenium-training\SeleniumTestProject\SeleniumTestProject\obj\Debug\SeleniumTestProject.csprojAssemblyReference.cache
